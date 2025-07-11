@@ -8,6 +8,10 @@ let PublicRotas = {
       title: "Me deixe em 100",
       path: "/chegue_a_100",
     },
+    {
+      title: 'Escreva "Hello World"',
+      path: "/hello_world",
+    },
   ],
 };
 
