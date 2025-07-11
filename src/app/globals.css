@@ -1,15 +1,31 @@
 @import "tailwindcss";
 
-body{
+body {
   background-color: #0c0c0f;
   color: #f2f2f2;
 }
 
-h1{
+h1 {
   font-size: 2rem;
   font-weight: 800;
 }
 
-h2{
+h2 {
   font-size: 1.5rem;
+}
+
+.desafio-1 img {
+  opacity: 0;
+}
+
+.desafio-1 {
+  background-image: url("https://cdn.pixabay.com/photo/2025/06/15/21/04/golden-retriever-puppy-amber-9661916_1280.jpg/images/golden-retriever-puppy-amber-9661916_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+canvas {
+  pointer-events: none;
+  user-select: none;
 }

@@ -1,7 +1,7 @@
 import ChallengeHeader from "@/app/components/chalengeHeader/ChallengeHeader";
 import React from "react";
-import PixelImage from "./PixelImage";
 import AntiLeakShield from "@/app/components/antiLeakShield/AntiLeakShield";
+import RenderImage from "./RenderImage";
 
 export default function page() {
   let items = {
@@ -23,7 +23,7 @@ export default function page() {
           <br />
           <p className="text-[10px]">
             OBS: o desafio é considerado completo se você tiver um arquivo em
-            png, jpg ou qualquer outro formato de imagem valdio{" "}
+            png, jpg ou qualquer outro formato de imagem valido{" "}
             <strong className="text-red-600">
               <em>(HTML não é um formato de imagem!).</em>
             </strong>{" "}
@@ -35,9 +35,13 @@ export default function page() {
       </div>
       <hr className="border border-slate-500" />
 
-      <div className="w-full flex items-center justify-center mt-10">
-        <PixelImage />
+      <div className="w-full flex flex-col justify-center items-center left-0">
+        <RenderImage />
       </div>
+
+      {/* <div className="w-full flex items-center justify-center mt-10 desafio-1">
+        <img src="/imagens/image.png" />
+      </div> */}
     </div>
   );
 }
