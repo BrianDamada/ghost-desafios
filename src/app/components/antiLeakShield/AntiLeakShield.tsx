@@ -6,25 +6,25 @@ export default function AntiLeakShield() {
   let mensagens = {
     f12: {
       title: "F12 aqui não!",
-      mensage: "não vai ser tão facil assim amigo :)",
+      mensage: "Não vai ser tão fácil assim, amigo :)",
     },
     savePage: {
-      title: "Quase em!",
-      mensage: "Ctrl+S é algo bem incomum, mas eu previ isso",
+      title: "Quase lá!",
+      mensage: "Ctrl+S é algo bem incomum, mas eu previ isso.",
     },
     botaoDireito: {
       title: "Sério mesmo?",
       mensage:
-        "você realmente tentou o botão direito? parabéns por tentar o mais obvio possível!",
+        "Você realmente tentou o botão direito? Parabéns por tentar o mais óbvio possível!",
     },
     ctrlShiftI: {
       title: "Essa foi boa!",
       mensage:
-        "karai! nunca vi alguem abrir o DevTools pelo 'Ctrl + Shift + i'",
+        "Caramba! Nunca vi alguém abrir o DevTools pelo 'Ctrl + Shift + I'.",
     },
     barraDeFerramentas: {
       title: "NOOOOOO!",
-      mensage: "DEVTOOLS PELA BARRA DE FERRAMENTAS! MINHA MAIOR FRAQUEZAAAA!",
+      mensage: "DEVTOOLS PELA BARRA DE FERRAMENTAS! MINHA MAIOR FRAQUEZA!",
     },
   };
   // ==========================================================================================

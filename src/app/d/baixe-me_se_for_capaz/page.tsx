@@ -17,19 +17,19 @@ export default function page() {
       <div className="min-h-[350px] p-5">
         <ChallengeHeader>
           <p>
-            <strong>BEM VINDO AO PRIMEIRO DESAFIO!</strong> baixe a imagem
-            abaixo se você for capaz disso &gt;:^]
+            <strong>BEM-VINDO AO PRIMEIRO DESAFIO!</strong> Baixe a imagem
+            abaixo, se for capaz disso &gt;:^]
           </p>
           <br />
           <p className="text-[10px]">
             OBS: o desafio é considerado completo se você tiver um arquivo em
-            png, jpg ou qualquer outro formato de imagem valido{" "}
+            PNG, JPG ou qualquer outro formato de imagem válido.{" "}
             <strong className="text-red-600">
               <em>(HTML não é um formato de imagem!).</em>
             </strong>{" "}
             <br />
-            outra coisa, eu não posso e não consigo te impedir de tirar print da
-            tela, e isso não conta como solução
+            Outra coisa: eu não posso e não consigo te impedir de tirar print da
+            tela — então isso não conta como solução.
           </p>
         </ChallengeHeader>
       </div>
