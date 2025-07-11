@@ -163,7 +163,7 @@ export default function CounterChallenge() {
           </button>
         ))}
       </div>
-      <p className="mt-72 text-slate-700">
+      <p className="fixed w-[100vw] p-7 bottom-0 text-slate-700">
         caso você esteja em uma situação muito ruim você pode resetar clicando
         em{" "}
         <button
